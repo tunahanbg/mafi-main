@@ -4453,6 +4453,7 @@ style Base_Widget_MaterialComponents_Snackbar
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
+style BottomNavigation_Style
 style BottomNavigation_TextAppearance
 style CardView
 style CardView_Dark
@@ -4695,6 +4696,7 @@ style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
 style TextBody
 style TextCaption
+style TextEditor_ButtonStyle
 style TextHeadline1
 style TextHeadline2
 style TextHighlight

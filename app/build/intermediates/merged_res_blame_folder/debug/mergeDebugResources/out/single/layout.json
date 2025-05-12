@@ -1,46 +1,50 @@
 [
     {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/fragment_content_manager.xml",
-        "source": "com.mafi.app-main-34:/layout/fragment_content_manager.xml"
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/item_dropdown.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/item_dropdown.xml"
     },
     {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/fragment_settings.xml",
-        "source": "com.mafi.app-main-34:/layout/fragment_settings.xml"
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/fragment_text_editor.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_text_editor.xml"
     },
     {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/dialog_content_details.xml",
-        "source": "com.mafi.app-main-34:/layout/dialog_content_details.xml"
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/fragment_profile.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_profile.xml"
     },
     {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/fragment_home.xml",
-        "source": "com.mafi.app-main-34:/layout/fragment_home.xml"
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/item_content.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/item_content.xml"
     },
     {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/fragment_register.xml",
-        "source": "com.mafi.app-main-34:/layout/fragment_register.xml"
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/fragment_settings.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_settings.xml"
     },
     {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/fragment_profile.xml",
-        "source": "com.mafi.app-main-34:/layout/fragment_profile.xml"
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/fragment_register.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/fragment_home.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/dialog_content_details.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/dialog_content_details.xml"
+    },
+    {
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/fragment_content_manager.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_content_manager.xml"
     },
     {
         "merged": "com.mafi.app-mergeDebugResources-31:/layout/fragment_text_editor.xml",
         "source": "com.mafi.app-main-34:/layout/fragment_text_editor.xml"
     },
     {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/item_dropdown.xml",
-        "source": "com.mafi.app-main-34:/layout/item_dropdown.xml"
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/activity_main.xml"
     },
     {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/activity_main.xml",
-        "source": "com.mafi.app-main-34:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/item_content.xml",
-        "source": "com.mafi.app-main-34:/layout/item_content.xml"
-    },
-    {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/fragment_login.xml",
-        "source": "com.mafi.app-main-34:/layout/fragment_login.xml"
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/fragment_login.xml",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_login.xml"
     }
 ]

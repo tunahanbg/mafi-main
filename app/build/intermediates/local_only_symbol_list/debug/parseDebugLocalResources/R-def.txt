@@ -196,12 +196,14 @@ style AppCard.Flat
 style AppEditText
 style AppTheme
 style App.BottomNavigation.ActiveIndicator
+style BottomNavigation.Style
 style BottomNavigation.TextAppearance
 style ShapeAppearance.App.LargeComponent
 style ShapeAppearance.App.MediumComponent
 style ShapeAppearance.App.SmallComponent
 style TextBody
 style TextCaption
+style TextEditor.ButtonStyle
 style TextHeadline1
 style TextHeadline2
 style TextHighlight

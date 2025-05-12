@@ -4452,6 +4452,7 @@ int style Base_Widget_MaterialComponents_Snackbar 0x7f110124
 int style Base_Widget_MaterialComponents_TextInputEditText 0x7f110125
 int style Base_Widget_MaterialComponents_TextInputLayout 0x7f110126
 int style Base_Widget_MaterialComponents_TextView 0x7f110127
+int style BottomNavigation_Style 0x7f11047c
 int style BottomNavigation_TextAppearance 0x7f110128
 int style CardView 0x7f110129
 int style CardView_Dark 0x7f11012a
@@ -4694,6 +4695,7 @@ int style TextAppearance_Widget_AppCompat_Toolbar_Subtitle 0x7f110216
 int style TextAppearance_Widget_AppCompat_Toolbar_Title 0x7f110217
 int style TextBody 0x7f110218
 int style TextCaption 0x7f110219
+int style TextEditor_ButtonStyle 0x7f11047d
 int style TextHeadline1 0x7f11021a
 int style TextHeadline2 0x7f11021b
 int style TextHighlight 0x7f11021c

@@ -155,63 +155,49 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:baselineAligned="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_summarize"
-            style="@style/Widget.MaterialComponents.Button"
+            style="@style/TextEditor.ButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="4dp"
             android:layout_weight="1"
-            android:text="Özetle"
-            android:textSize="12sp"
-            android:textAllCaps="false"
-            android:backgroundTint="@color/primary"
-            android:textColor="@color/white" />
+            android:text="Özetle" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_expand"
-            style="@style/Widget.MaterialComponents.Button"
+            style="@style/TextEditor.ButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="4dp"
             android:layout_weight="1"
-            android:text="Derin Analiz"
-            android:textSize="12sp"
-            android:textAllCaps="false"
-            android:backgroundTint="@color/primary"
-            android:textColor="@color/white" />
+            android:text="Derin\nAnaliz" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_classify"
-            style="@style/Widget.MaterialComponents.Button"
+            style="@style/TextEditor.ButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="4dp"
             android:layout_weight="1"
-            android:text="Sınıflandır"
-            android:textSize="12sp"
-            android:textAllCaps="false"
-            android:backgroundTint="@color/primary"
-            android:textColor="@color/white" />
+            android:text="Sınıflandır" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_question"
-            style="@style/Widget.MaterialComponents.Button"
+            style="@style/TextEditor.ButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:layout_weight="1"
-            android:text="Soru Sor"
-            android:textSize="12sp"
-            android:textAllCaps="false"
-            android:backgroundTint="@color/primary"
-            android:textColor="@color/white" />
+            android:text="Soru Sor" />
 
     </LinearLayout>
 

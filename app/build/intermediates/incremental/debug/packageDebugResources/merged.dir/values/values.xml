@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#00BCD4</color>
+    <color name="accent_light">#CCF3F9</color>
+    <color name="accent_variant">#05A6C1</color>
+    <color name="background">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+    <color name="black">#000000</color>
+    <color name="button_disabled">#CFCFCF</color>
+    <color name="card_stroke">#E6E6E6</color>
+    <color name="card_stroke_dark">#444444</color>
+    <color name="dim_background">#80000000</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="elevated_surface">#FFFFFF</color>
+    <color name="elevated_surface_dark">#2C2C2C</color>
+    <color name="error">#F44336</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="info">#2196F3</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="off_white">#F9F9F9</color>
+    <color name="primary">#550AE1</color>
+    <color name="primary_dark">#4309B1</color>
+    <color name="primary_light">#DED0FC</color>
+    <color name="primary_text">#212121</color>
+    <color name="primary_variant">#7B46E3</color>
+    <color name="secondary_text">#757575</color>
+    <color name="success">#4CAF50</color>
+    <color name="surface">#F8F8F8</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="tertiary_text">#9E9E9E</color>
+    <color name="warning">#FFC107</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Mafi İçerik Platformu</string>
+    <string name="button_add_content">İçerik Ekle</string>
+    <string name="button_expand">Genişlet</string>
+    <string name="button_login">Giriş Yap</string>
+    <string name="button_register">Kayıt Ol</string>
+    <string name="button_summarize">Özetle</string>
+    <string name="content_type_icon">İçerik Tipi İkonu</string>
+    <string name="hint_content">İçeriğinizi buraya yazın...</string>
+    <string name="hint_email">E-posta</string>
+    <string name="hint_password">Şifre</string>
+    <string name="placeholder_button_3">Buton 3</string>
+    <string name="placeholder_button_4">Buton 4</string>
+    <string name="title_content">İçerikler</string>
+    <string name="title_home">Ana Sayfa</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_settings">Ayarlar</string>
+    <style name="App.BottomNavigation.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/white</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="android:alpha">0.15</item>
+    </style>
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="elevation">2dp</item>
+    </style>
+    <style name="AppButton.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+    <style name="AppButton.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="rippleColor">@color/primary_light</item>
+    </style>
+    <style name="AppCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+        <item name="strokeColor">@color/card_stroke</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="AppCard.Elevated" parent="AppCard">
+        <item name="cardElevation">4dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+    <style name="AppCard.Flat" parent="AppCard">
+        <item name="cardElevation">0dp</item>
+    </style>
+    <style name="AppEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+    </style>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_variant</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorError">@color/error</item>
+
+        
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:textColorTertiary">@color/tertiary_text</item>
+
+        
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>
+    </style>
+    <style name="BottomNavigation.Style" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemPaddingTop">4dp</item>
+        <item name="itemPaddingBottom">12dp</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="BottomNavigation.TextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0</item>
+    </style>
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="TextBody">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="TextCaption">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextEditor.ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:height">48dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextHeadline1">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+    <style name="TextHeadline2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="TextHighlight">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+    <style name="TextSubtitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Theme.MafiApp" parent="AppTheme">
+        
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/slide_right</item>
+        <item name="android:windowExitTransition">@android:transition/slide_left</item>
+    </style>
+    <style name="Theme.MafiApp.Night" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_variant</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnBackground">@color/white</item>
+        
+        
+        <item name="cardBackgroundColor">@color/surface_dark</item>
+        
+        
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">#CCCCCC</item>
+        <item name="android:textColorTertiary">#AAAAAA</item>
+        
+        
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>
+        
+        
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/slide_right</item>
+        <item name="android:windowExitTransition">@android:transition/slide_left</item>
+    </style>
+</resources>

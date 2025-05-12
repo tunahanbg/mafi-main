@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:background="@color/primary"
         android:padding="16dp"
-        android:text="@string/title_home"
+        android:text="@string/title_content"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
