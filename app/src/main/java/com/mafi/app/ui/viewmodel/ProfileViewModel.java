@@ -100,6 +100,23 @@ public class ProfileViewModel extends AndroidViewModel {
             userContentList.setValue(new ArrayList<>());
         }
     }
+    public void deleteContent(int contentId) {
+        try {
+            int result = contentRepository.deleteContent(contentId);
+
+            if (result > 0) {
+                Log.d(TAG, "İçerik başarıyla silindi. ID: " + contentId);
+                // İçerik listesini yenile
+                loadUserContents();
+            } else {
+                Log.e(TAG, "İçerik silinirken bir hata oluştu. ID: " + contentId);
+                errorMessage.setValue("İçerik silinirken bir hata oluştu");
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "İçerik silme hatası: " + e.getMessage(), e);
+            errorMessage.setValue("İçerik silinirken bir hata oluştu: " + e.getMessage());
+        }
+    }
 
     public void logout() {
         Log.d(TAG, "Çıkış yapılıyor");

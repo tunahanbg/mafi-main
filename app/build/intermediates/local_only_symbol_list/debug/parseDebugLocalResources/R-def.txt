@@ -51,6 +51,8 @@ drawable ic_text
 drawable ic_video
 drawable placeholder_image
 drawable placeholder_video
+id action_delete
+id action_edit
 id auto_complete_ai_model
 id bottom_nav_background
 id bottom_nav_shadow
@@ -124,6 +126,8 @@ id text_content_title
 id text_content_type
 id text_content_url
 id text_content_url_label
+id text_delete_confirmation
+id text_delete_warning
 id text_empty
 id text_input_ai_model
 id text_input_confirm_password
@@ -159,6 +163,7 @@ id view_divider_bottom
 id view_divider_top
 layout activity_main
 layout dialog_content_details
+layout dialog_delete_confirmation
 layout fragment_content_manager
 layout fragment_home
 layout fragment_login
@@ -169,6 +174,7 @@ layout fragment_text_editor
 layout item_content
 layout item_dropdown
 menu bottom_navigation_menu
+menu content_item_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

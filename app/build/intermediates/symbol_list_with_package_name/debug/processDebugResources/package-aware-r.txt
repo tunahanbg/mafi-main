@@ -3216,7 +3216,9 @@ id action_bar_subtitle
 id action_bar_title
 id action_container
 id action_context_bar
+id action_delete
 id action_divider
+id action_edit
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -3681,6 +3683,8 @@ id text_content_title
 id text_content_type
 id text_content_url
 id text_content_url_label
+id text_delete_confirmation
+id text_delete_warning
 id text_empty
 id text_input_ai_model
 id text_input_confirm_password
@@ -3899,6 +3903,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_content_details
+layout dialog_delete_confirmation
 layout fragment_content_manager
 layout fragment_home
 layout fragment_login
@@ -3972,6 +3977,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu bottom_navigation_menu
+menu content_item_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

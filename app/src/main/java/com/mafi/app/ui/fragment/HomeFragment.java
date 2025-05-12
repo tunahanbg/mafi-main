@@ -11,11 +11,13 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.PopupMenu;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.mafi.app.R;
 import com.mafi.app.data.model.Content;
@@ -132,7 +134,40 @@ public class HomeFragment extends Fragment implements ContentAdapter.OnItemClick
 
     @Override
     public void onItemLongClick(Content content, View view) {
-        // İçerik işlemleri (silme, düzenleme vb.)
-        Toast.makeText(getContext(), "İçerik İşlemleri: " + content.getTitle(), Toast.LENGTH_SHORT).show();
+        // İçerik işlemleri için popup menü göster
+        PopupMenu popup = new PopupMenu(requireContext(), view);
+        popup.getMenuInflater().inflate(R.menu.content_item_menu, popup.getMenu());
+
+        popup.setOnMenuItemClickListener(item -> {
+            if (item.getItemId() == R.id.action_delete) {
+                showDeleteConfirmationDialog(content);
+                return true;
+            } else if (item.getItemId() == R.id.action_edit) {
+                // Düzenleme ekranına git
+                TextEditorFragment fragment = TextEditorFragment.newInstance(content.getId());
+                if (getActivity() != null) {
+                    getActivity().getSupportFragmentManager().beginTransaction()
+                            .replace(R.id.fragment_container, fragment)
+                            .addToBackStack(null)
+                            .commit();
+                }
+                return true;
+            }
+            return false;
+        });
+
+        popup.show();
+    }
+
+    private void showDeleteConfirmationDialog(Content content) {
+        new MaterialAlertDialogBuilder(requireContext())
+                .setTitle("İçeriği Sil")
+                .setMessage("\"" + content.getTitle() + "\" başlıklı içeriği silmek istediğinizden emin misiniz?")
+                .setPositiveButton("Sil", (dialog, which) -> {
+                    // İçeriği sil
+                    viewModel.deleteContent(content.getId());
+                })
+                .setNegativeButton("İptal", null)
+                .show();
     }
 }

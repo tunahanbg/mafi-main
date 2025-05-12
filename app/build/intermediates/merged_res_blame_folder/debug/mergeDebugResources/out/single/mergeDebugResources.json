@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-debug-32:/xml_backup_rules.xml.flat",
         "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -156,6 +156,10 @@
         "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/drawable/ic_home.xml"
     },
     {
+        "merged": "com.mafi.app-debug-32:/layout_dialog_delete_confirmation.xml.flat",
+        "source": "com.mafi.app-main-34:/layout/dialog_delete_confirmation.xml"
+    },
+    {
         "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-debug-32:/drawable_ic_audio.xml.flat",
         "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/drawable/ic_audio.xml"
     },
@@ -176,8 +180,8 @@
         "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_text_editor.xml"
     },
     {
-        "merged": "com.mafi.app-debug-32:/layout_item_content.xml.flat",
-        "source": "com.mafi.app-main-34:/layout/item_content.xml"
+        "merged": "com.mafi.app-debug-32:/menu_content_item_menu.xml.flat",
+        "source": "com.mafi.app-main-34:/menu/content_item_menu.xml"
     },
     {
         "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",

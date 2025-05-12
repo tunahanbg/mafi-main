@@ -2,6 +2,7 @@ package com.mafi.app.ui.viewmodel;
 
 import android.app.Application;
 import android.util.Log;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
@@ -128,8 +129,26 @@ public class HomeViewModel extends AndroidViewModel {
         }
     }
 
-    // İçerik verilerini yenile
-    public void refreshContent() {
-        loadUserContents();
+    public void deleteContent(int contentId) {
+        try {
+            isLoading.setValue(true);
+            errorMessage.setValue(null);
+
+            int result = contentRepository.deleteContent(contentId);
+
+            if (result > 0) {
+                // Silme başarılı, içerik listesini yenile
+                loadUserContents();
+                Toast.makeText(getApplication(), "İçerik başarıyla silindi", Toast.LENGTH_SHORT).show();
+            } else {
+                errorMessage.setValue("İçerik silinirken bir hata oluştu");
+            }
+
+            isLoading.setValue(false);
+        } catch (Exception e) {
+            Log.e(TAG, "İçerik silme hatası: " + e.getMessage(), e);
+            isLoading.setValue(false);
+            errorMessage.setValue("İçerik silinirken bir hata oluştu: " + e.getMessage());
+        }
     }
 }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_delete_confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bu içeriği silmek istediğinizden emin misiniz?"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary" />
+
+    <TextView
+        android:id="@+id/text_delete_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bu işlem geri alınamaz."
+        android:textColor="@color/error"
+        android:textSize="14sp" />
+</LinearLayout>
