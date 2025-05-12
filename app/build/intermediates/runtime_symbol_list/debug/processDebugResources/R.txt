@@ -3061,7 +3061,9 @@ int drawable ic_image 0x7f070097
 int drawable ic_keyboard_black_24dp 0x7f070098
 int drawable ic_launcher 0x7f070099
 int drawable ic_launcher_background 0x7f07009a
+int drawable ic_launcher_background_new 0x7f0700f8
 int drawable ic_launcher_foreground 0x7f07009b
+int drawable ic_launcher_foreground_new 0x7f0700f9
 int drawable ic_m3_chip_check 0x7f07009c
 int drawable ic_m3_chip_checked_circle 0x7f07009d
 int drawable ic_m3_chip_close 0x7f07009e
