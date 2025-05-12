@@ -20,6 +20,10 @@
         "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_settings.xml"
     },
     {
+        "merged": "com.mafi.app-mergeDebugResources-31:/layout/item_content.xml",
+        "source": "com.mafi.app-main-34:/layout/item_content.xml"
+    },
+    {
         "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/fragment_register.xml",
         "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_register.xml"
     },
@@ -34,10 +38,6 @@
     {
         "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/fragment_content_manager.xml",
         "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_content_manager.xml"
-    },
-    {
-        "merged": "com.mafi.app-mergeDebugResources-31:/layout/fragment_text_editor.xml",
-        "source": "com.mafi.app-main-34:/layout/fragment_text_editor.xml"
     },
     {
         "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-mergeDebugResources-31:/layout/activity_main.xml",

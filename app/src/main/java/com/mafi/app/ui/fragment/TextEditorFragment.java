@@ -279,6 +279,11 @@ public class TextEditorFragment extends Fragment {
         TextInputLayout textInputLayout = new TextInputLayout(requireContext());
         textInputLayout.setHint("Metne ilişkin sorunuzu yazın");
         textInputLayout.setPadding(32, 16, 32, 0);
+
+        //Float yapılacak hint özelliğini aktif et
+        textInputLayout.setBoxBackgroundMode(TextInputLayout.BOX_BACKGROUND_OUTLINE);
+        textInputLayout.setHintAnimationEnabled(true);
+        textInputLayout.setHintEnabled(true);
         
         TextInputEditText editTextQuestion = new TextInputEditText(requireContext());
         textInputLayout.addView(editTextQuestion);

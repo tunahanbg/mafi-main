@@ -60,7 +60,7 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ContentV
         int iconResId = 0;
         switch (content.getContentTypeId()) {
             case ContentType.TYPE_TEXT:
-                iconResId = R.drawable.ic_text;
+                iconResId = R.drawable.ic_content;
                 break;
             case ContentType.TYPE_IMAGE:
                 iconResId = R.drawable.ic_image;
@@ -72,7 +72,7 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ContentV
                 iconResId = R.drawable.ic_video;
                 break;
             default:
-                iconResId = R.drawable.ic_content;
+                iconResId = R.drawable.ic_text;
                 break;
         }
 

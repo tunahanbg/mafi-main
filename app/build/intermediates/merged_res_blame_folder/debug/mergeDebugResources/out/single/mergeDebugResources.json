@@ -140,10 +140,6 @@
         "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/drawable/ic_image.xml"
     },
     {
-        "merged": "com.mafi.app-debug-32:/layout_fragment_text_editor.xml.flat",
-        "source": "com.mafi.app-main-34:/layout/fragment_text_editor.xml"
-    },
-    {
         "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
     },
@@ -178,6 +174,10 @@
     {
         "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-debug-32:/layout_fragment_text_editor.xml.flat",
         "source": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-main-34:/layout/fragment_text_editor.xml"
+    },
+    {
+        "merged": "com.mafi.app-debug-32:/layout_item_content.xml.flat",
+        "source": "com.mafi.app-main-34:/layout/item_content.xml"
     },
     {
         "merged": "/Users/tunahanbg/.gradle/daemon/8.10.2/com.mafi.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",

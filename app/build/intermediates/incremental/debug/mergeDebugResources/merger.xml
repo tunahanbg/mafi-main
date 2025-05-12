@@ -11708,7 +11708,7 @@
         <item name="android:letterSpacing">0.0</item>
     </style><style name="BottomNavigation.Style" parent="Widget.MaterialComponents.BottomNavigationView">
         <item name="itemPaddingTop">4dp</item>
-        <item name="itemPaddingBottom">12dp</item>
+        <item name="itemPaddingBottom">4dp</item>
         <item name="labelVisibilityMode">labeled</item>
         <item name="android:background">@android:color/transparent</item>
     </style><style name="TextEditor.ButtonStyle" parent="Widget.MaterialComponents.Button">
