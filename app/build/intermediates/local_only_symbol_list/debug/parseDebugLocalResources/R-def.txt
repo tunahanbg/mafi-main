@@ -98,7 +98,6 @@ id layout_actions
 id layout_audio_controls
 id linear_buttons
 id nav_content
-id nav_home
 id nav_profile
 id nav_settings
 id progress_bar

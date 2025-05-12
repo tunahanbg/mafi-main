@@ -54,10 +54,8 @@ public class MainActivity extends AppCompatActivity {
             Fragment fragment = null;
             
             int id = item.getItemId();
-            if (id == R.id.nav_home) {
+            if (id == R.id.nav_content) {
                 fragment = new HomeFragment();
-            } else if (id == R.id.nav_content) {
-                fragment = new HomeFragment(); // İçerik sayfası yerine şimdilik HomeFragment kullanıyoruz
             } else if (id == R.id.nav_profile) {
                 fragment = new ProfileFragment();
             } else if (id == R.id.nav_settings) {
@@ -82,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                 // Kullanıcı giriş yapmışsa ana ekranı göster
                 loadFragment(new HomeFragment());
                 // Varsayılan olarak ana ekran seçili olsun
-                bottomNavigation.setSelectedItemId(R.id.nav_home);
+                bottomNavigation.setSelectedItemId(R.id.nav_content);
                 showBottomNavigation(true);
             } else {
                 // Kullanıcı ID geçersizse oturumu temizle ve giriş sayfasını göster

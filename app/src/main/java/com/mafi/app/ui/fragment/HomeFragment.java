@@ -32,7 +32,7 @@ public class HomeFragment extends Fragment implements ContentAdapter.OnItemClick
     private ContentAdapter contentAdapter;
     private ProgressBar progressBar;
     private FloatingActionButton fabAddContent;
-    private TextView emptyTextView; // Boş durum için TextView (eğer layoutta yoksa ekleyin)
+    private TextView emptyTextView; // Boş durum için TextView
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
